@@ -89,42 +89,162 @@ export const ZicZacIcon = () => {
       </g>
     </svg>
   );
-}
+};
 
 export const SmileIcon = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 84 84" fill="currentColor">
-                        <g>
-                          <path d="M42,84C18.8,84,0,65.1,0,42S18.8,0,42,0s42,18.8,42,42S65.1,84,42,84z M42,1C19.4,1,1,19.4,1,42
-                            s18.4,41,41,41s41-18.4,41-41S64.6,1,42,1z"></path>
-                          <path d="M42,69.8c-15.8,0-28.6-12.8-28.6-28.6h1c0,15.2,12.4,27.6,27.6,27.6s27.6-12.4,27.6-27.6h1
-                            C70.6,57,57.7,69.8,42,69.8z"></path>
-                          <g>
-                            <path d="M31.7,31.1H17.8v-0.5c0-3.8,3.1-7,7-7s7,3.1,7,7L31.7,31.1L31.7,31.1z M18.8,30.1h11.9
-                              c-0.2-3-2.8-5.5-5.9-5.5S19.1,27.1,18.8,30.1L18.8,30.1z"></path>
-                            <path d="M66.2,31.1H52.2v-0.5c0-3.8,3.1-7,7-7s7,3.1,7,7L66.2,31.1L66.2,31.1z M53.3,30.1h11.9
-                              c-0.2-3-2.8-5.5-5.9-5.5S53.5,27.1,53.3,30.1L53.3,30.1z"></path>
-                          </g>
-                        </g>
-                      </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 84 84"
+      fill="currentColor"
+    >
+      <g>
+        <path
+          d="M42,84C18.8,84,0,65.1,0,42S18.8,0,42,0s42,18.8,42,42S65.1,84,42,84z M42,1C19.4,1,1,19.4,1,42
+                            s18.4,41,41,41s41-18.4,41-41S64.6,1,42,1z"
+        ></path>
+        <path
+          d="M42,69.8c-15.8,0-28.6-12.8-28.6-28.6h1c0,15.2,12.4,27.6,27.6,27.6s27.6-12.4,27.6-27.6h1
+                            C70.6,57,57.7,69.8,42,69.8z"
+        ></path>
+        <g>
+          <path
+            d="M31.7,31.1H17.8v-0.5c0-3.8,3.1-7,7-7s7,3.1,7,7L31.7,31.1L31.7,31.1z M18.8,30.1h11.9
+                              c-0.2-3-2.8-5.5-5.9-5.5S19.1,27.1,18.8,30.1L18.8,30.1z"
+          ></path>
+          <path
+            d="M66.2,31.1H52.2v-0.5c0-3.8,3.1-7,7-7s7,3.1,7,7L66.2,31.1L66.2,31.1z M53.3,30.1h11.9
+                              c-0.2-3-2.8-5.5-5.9-5.5S53.5,27.1,53.3,30.1L53.3,30.1z"
+          ></path>
+        </g>
+      </g>
+    </svg>
   );
-}
+};
 export const LineCircle = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.3 93.1" fill="currentColor">
-    <g>
-      <rect x="45.7" className="st0" width="1" height="93.1"></rect>
-      <rect x="45.7" y="0" transform="matrix(0.8412 -0.5407 0.5407 0.8412 -17.8476 32.3497)" className="st0" width="1" height="93.1"></rect>
-      <rect x="45.7" y="0" transform="matrix(0.4155 -0.9096 0.9096 0.4155 -15.3764 69.2119)" className="st0" width="1" height="93.1"></rect>
-      <rect x="-0.4" y="46.1" transform="matrix(0.9898 -0.1425 0.1425 0.9898 -6.1646 7.0506)" className="st0" width="93.1" height="1"></rect>
-      <rect x="-0.4" y="46.1" transform="matrix(0.7556 -0.655 0.655 0.7556 -19.2157 41.618)" className="st0" width="93.1" height="1"></rect>
-      <rect x="-0.4" y="46.1" transform="matrix(0.2812 -0.9597 0.9597 0.2812 -11.5032 77.7858)" className="st0" width="93.1" height="1"></rect>
-      <rect x="45.7" y="0" transform="matrix(0.9595 -0.2817 0.2817 0.9595 -11.2479 14.8866)" className="st0" width="1" height="93.1"></rect>
-      <rect x="45.7" y="0" transform="matrix(0.6549 -0.7557 0.7557 0.6549 -19.2631 50.9572)" className="st0" width="1" height="93.1"></rect>
-      <rect x="45.7" y="0" transform="matrix(0.1423 -0.9898 0.9898 0.1423 -6.4999 85.629)" className="st0" width="1" height="93.1"></rect>
-      <rect x="-0.4" y="46.1" transform="matrix(0.9097 -0.4153 0.4153 0.9097 -15.1716 23.381)" className="st0" width="93.1" height="1"></rect>
-      <rect x="-0.4" y="46.1" transform="matrix(0.5411 -0.8409 0.8409 0.5411 -17.9774 60.1901)" className="st0" width="93.1" height="1"></rect>
-    </g>
-  </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 92.3 93.1"
+      fill="currentColor"
+    >
+      <g>
+        <rect x="45.7" className="st0" width="1" height="93.1"></rect>
+        <rect
+          x="45.7"
+          y="0"
+          transform="matrix(0.8412 -0.5407 0.5407 0.8412 -17.8476 32.3497)"
+          className="st0"
+          width="1"
+          height="93.1"
+        ></rect>
+        <rect
+          x="45.7"
+          y="0"
+          transform="matrix(0.4155 -0.9096 0.9096 0.4155 -15.3764 69.2119)"
+          className="st0"
+          width="1"
+          height="93.1"
+        ></rect>
+        <rect
+          x="-0.4"
+          y="46.1"
+          transform="matrix(0.9898 -0.1425 0.1425 0.9898 -6.1646 7.0506)"
+          className="st0"
+          width="93.1"
+          height="1"
+        ></rect>
+        <rect
+          x="-0.4"
+          y="46.1"
+          transform="matrix(0.7556 -0.655 0.655 0.7556 -19.2157 41.618)"
+          className="st0"
+          width="93.1"
+          height="1"
+        ></rect>
+        <rect
+          x="-0.4"
+          y="46.1"
+          transform="matrix(0.2812 -0.9597 0.9597 0.2812 -11.5032 77.7858)"
+          className="st0"
+          width="93.1"
+          height="1"
+        ></rect>
+        <rect
+          x="45.7"
+          y="0"
+          transform="matrix(0.9595 -0.2817 0.2817 0.9595 -11.2479 14.8866)"
+          className="st0"
+          width="1"
+          height="93.1"
+        ></rect>
+        <rect
+          x="45.7"
+          y="0"
+          transform="matrix(0.6549 -0.7557 0.7557 0.6549 -19.2631 50.9572)"
+          className="st0"
+          width="1"
+          height="93.1"
+        ></rect>
+        <rect
+          x="45.7"
+          y="0"
+          transform="matrix(0.1423 -0.9898 0.9898 0.1423 -6.4999 85.629)"
+          className="st0"
+          width="1"
+          height="93.1"
+        ></rect>
+        <rect
+          x="-0.4"
+          y="46.1"
+          transform="matrix(0.9097 -0.4153 0.4153 0.9097 -15.1716 23.381)"
+          className="st0"
+          width="93.1"
+          height="1"
+        ></rect>
+        <rect
+          x="-0.4"
+          y="46.1"
+          transform="matrix(0.5411 -0.8409 0.8409 0.5411 -17.9774 60.1901)"
+          className="st0"
+          width="93.1"
+          height="1"
+        ></rect>
+      </g>
+    </svg>
   );
-}
+};
+
+export const DownCrossIcon = () => {
+  return (
+    <svg
+      fill="#000000"
+      viewBox="0 0 24 24"
+      height={24}
+      width={24}
+    >
+      <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+      <g
+        id="SVGRepo_tracerCarrier"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></g>
+      <g id="SVGRepo_iconCarrier">
+        <line
+          id="primary"
+          x1="18.36"
+          y1="18.36"
+          x2="5"
+          y2="5"
+          style={{ fill: 'none', stroke: '#ffffff', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: 2 }}
+        ></line>
+        <polyline
+          id="primary-2"
+          data-name="primary"
+          points="19 9 19 19 9.1 19"
+          style={{fill: 'none', stroke: '#ffffff', strokeLinecap: 'round', strokeLinejoin: 'round', strokeWidth: 2}}
+        ></polyline>
+      </g>
+    </svg>
+  );
+};
