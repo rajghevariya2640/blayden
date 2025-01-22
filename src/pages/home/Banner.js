@@ -9,13 +9,14 @@ import BGridItem from "../../shared/BGridItem";
 import BText from "../../shared/BText";
 
 const Banner = () => {
+
   return (
-    <BBox position="relative" minHeight="calc(100vh - 110px)" display='flex'>
+    <BBox position="relative" minHeight="calc(100vh - 110px)" display="flex">
       <BBox
         data-speed="0.6"
         className="bg1"
-        position="absolute"
         css={{
+          position:"absolute",
           top: -606,
           right: 0,
           width: 860,
@@ -37,9 +38,8 @@ const Banner = () => {
       </BBox>
       <BBox
         data-speed="0.8"
-        position="absolute"
-        className="hgvhgvhgvghv"
         css={{
+          position:"absolute",
           bottom: "-118px",
           left: -175,
           width: 500,
@@ -65,11 +65,19 @@ const Banner = () => {
         isPadding={true}
         position="relative"
         zIndex={10}
-        marginTop='auto'
+        marginTop="auto"
       >
         <BGridItem></BGridItem>
         <BGridItem>
-          <BBox css={{display: 'flex', flexDirection: 'column', height: '100%', alignItems: 'start', justifyContent: 'end'}}>
+          <BBox
+            css={{
+              display: "flex",
+              flexDirection: "column",
+              height: "100%",
+              alignItems: "start",
+              justifyContent: "end",
+            }}
+          >
             <BBox
               css={{
                 fontSize: 26,

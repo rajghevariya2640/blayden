@@ -1,7 +1,11 @@
 const theme = {
   colors: {
     main: "#F2F5FC",
-    white: "#fff",
+    white: "#ffffff",
+    black: "#000000",
+    dark: {
+      50: '#141414'
+    },
     gray: {
       light: {
         50: "#AEB5C5",
@@ -12,14 +16,6 @@ const theme = {
   fonts: {
     heading: `'Roboto', sans-serif`,
     body: `'Open Sans', sans-serif`,
-  },
-  styles: {
-    global: {
-      "html, body": {
-        color: "gray.700",
-        bg: "gray.100",
-      },
-    },
   },
 };
 

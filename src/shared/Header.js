@@ -16,7 +16,16 @@ const Header = () => {
     <BStack as="header" py="30px" position="fixed" width="100%" zIndex="999">
       <BGrid templateColumns="2fr 8fr 2fr" alignItems="center">
         <BGridItem pl="50px">
-          <BStack as="a" direction="row" alignItems="center" gap="0"  backdropFilter="blur(6px)" width="fit-content" borderRadius={8} overflow="hidden">
+          <BStack
+            as="a"
+            direction="row"
+            alignItems="center"
+            gap="0"
+            backdropFilter="blur(6px)"
+            width="fit-content"
+            borderRadius={8}
+            overflow="hidden"
+          >
             <Logo />
             <BText
               fontSize="26px"
@@ -49,23 +58,23 @@ const Header = () => {
                   color={theme.colors.gray.light[50]}
                   textTransform="capitalize"
                   fontWeight={500}
-                  transition='all 0.15s ease-in-out'
+                  transition="all 0.15s ease-in-out"
                   position="relative"
-                  overflow='hidden'
-                  className={`${data.class && 'active'}`}
+                  overflow="hidden"
+                  className={`${data.class && "active"}`}
                   css={{
-                    '&.active': {
+                    "&.active": {
                       color: theme.colors.white,
                       _after: {
-                          content: "''",
-                          position: 'absolute',
-                          bottom: 0,
-                          left: 0,
-                          height: "1px",
-                          width: '100%',
-                          backgroundColor: theme.colors.white,
-                          transition: 'all 0.15s ease-in-out',
-                      }
+                        content: "''",
+                        position: "absolute",
+                        bottom: 0,
+                        left: 0,
+                        height: "1px",
+                        width: "100%",
+                        backgroundColor: theme.colors.white,
+                        transition: "all 0.15s ease-in-out",
+                      },
                     },
                   }}
                   _hover={{
@@ -79,8 +88,25 @@ const Header = () => {
           </BList>
         </BGridItem>
         <BGridItem>
-          <BStack>
-            <BBox as="span" height="26px" width="26px"></BBox>
+          <BStack
+            css={{
+              height: 50,
+              width: 50,
+              alignItems: "center",
+              justifyContent: "center",
+              backdropFilter: 'blur(6px)',
+              borderRadius: 10
+            }}
+          >
+            <BBox
+              as="span"
+              css={{
+                height: "26px",
+                width: "26px",
+                backgroundColor: theme.colors.main,
+                borderRadius: 50,
+              }}
+            ></BBox>
           </BStack>
         </BGridItem>
       </BGrid>

@@ -4,8 +4,8 @@ import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
 import Home from "./pages/home/Index";
-import Header from "./shared/Header";
 import CustomCursor from "./shared/CursorPointer";
+import Header from "./shared/Header";
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <CustomCursor/>
+      <CustomCursor />
       <Header />
       <div id="smooth-wrapper">
         <div id="smooth-content">

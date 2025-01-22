@@ -21,23 +21,22 @@ const BannerBottom = () => {
           >
             <img src={Image} alt="banner bottom" />
           </BBox>
-          <AnimatedText
-            text="Here we must run as fast as we can, just to stay in place. And if you wish to go anywhere you must run twice as fast as that."
-            textStyles={{
-              fontSize: "68px",
-              lineHeight: "1.4",
-              color: "#333",
-              margin: "100px 0",
-            }}
-            animationConfig={{
-              start: "top 80%",
-              end: "bottom 60%",
-              scrub: true,
-              wordColor: "#FF5733",
-              wordDuration: 0.3,
-              wordDelay: 0.07,
-            }}
-          />
+            <AnimatedText
+              text="Here we must run as fast as we can, just to stay in place. And if you wish to go anywhere you must run twice as fast as that."
+              textStyles={{
+                fontSize: "68px",
+                lineHeight: "1.4",
+                color: "#333",
+                margin: "100px 0",
+              }}
+              animationConfig={{
+                start: "top 80%",
+                end: "bottom 60%",
+                scrub: true,
+                wordDuration: 0.3,
+                wordDelay: 0.07,
+              }}
+            />
         </BGridItem>
         <BGridItem></BGridItem>
       </BGrid>
